@@ -1,0 +1,12 @@
+git --version
+git config  --global user.name "alexrubiano"
+git config  --global user.email "alexrubianoromero@gmail.com"
+git clone https://github.com/MariaClaraNextu/Cenicienta.git
+echo "cuento" > cuento.txt
+echo "tareas" > tareas.txt
+git add cuento.txt
+git commit -m "salio de la casa"
+git checkout fb7d0 : se pueden usar los primeros cinco numeros 
+git diff : permite ver las diferencias entre las diferentes versiones
+git branch imagenes_alternativas
+git add .  : el punto simboliza todos los archivos de la carpeta 
